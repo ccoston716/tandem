@@ -1,5 +1,5 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml" xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office">
 
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
@@ -20,7 +20,7 @@
     <!-- may change link to fonts i like -->
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Open+Sans:wght@300;400;500;600;700&family=Source+Serif+Pro:wght@300;400;600;700&display=swap" rel="stylesheet" />
 
-    <title>newsletter email</title>
+    <title>tandem newsletter </title>
     <!-- inline later or use inliner? -->
     <!-- todo don't know if i need this import font because i have a linked font -->
     <!-- todo also css reset settings -->
@@ -28,9 +28,11 @@
     <style>
         @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Open+Sans:wght@300;400;500;600;700&family=Source+Serif+Pro:wght@300;400;600;700&display=swap");
     </style>
+    <!-- resets -->
     <style>
         body {
             margin: 0;
+            background-color: #393c38;
         }
 
         table {
@@ -48,17 +50,12 @@
         .wrapper {
             width: 100%;
             table-layout: fixed;
-            /* background-color: #8c550c; */
-            padding-bottom: 60px;
         }
 
         /* changes affect everything in main {like text-align and text color} */
         .main {
             width: 100%;
             max-width: 600px;
-            /* font-family: 'Montserrat'; */
-            color: #040110;
-            /* box-shadow: 0 0 25px rgba(246, 169, 169, 0.7); */
             text-align: center;
         }
     </style>
@@ -67,28 +64,57 @@
     <style>
         /* !computer screens */
         @media only screen and (min-width: 960px) {
-            .container {
-                width: 960px;
+            .try {
+                padding: 0 60px 0 60px;
             }
+
+            .button {
+                padding-top: 40px !important;
+            }
+
+
         }
 
         /* tablets */
         @media only screen and (max-width: 960px) {
-            .container {
-                width: 600px;
+            .button {
+                text-align: center !important;
+                padding-top: 40px !important;
             }
         }
 
         /* phones */
         @media only screen and (max-width: 600px) {
-            .container {
-                width: 100%;
+                {}
+
+            /* fix */
+            .social {
+                width: 100% !important;
+
             }
-            .td{
-                padding-left: 0 !important;
+
+            /* good */
+            .button {
+                padding-top: 20px !important;
+                width: 100% !important;
+                text-align: center !important;
             }
-            .sign{
-                padding-top: 15px !important;
+
+            .tandemlogo {
+                padding-right: 32px !important;
+
+            }
+
+        }
+
+        @media only screen and (max-width: 360px) {
+
+            .gone {
+                display: none;
+            }
+
+            .tandemlogo {
+                padding-left: 50px !important;
             }
         }
     </style>
@@ -115,16 +141,16 @@
         <![endif]-->
 </head>
 
-<body style="background-color: #222222; ">
+<body style="background-color: #9ad3f7; ">
     <table class="wrapper" width="100%" border="0" cellspacing="0" cellpadding="0">
         <tr>
-            <td>
+            <td style="background-color: #ffffff; font-family: 'Montserrat', sans-serif, 'Open Sans', 'Source Serif Pro'; width: 100%; text-align: center; color: #2a292c;">
                 <!-- start of container -->
-                <table class="main" width="600" align="center" cellspacing="0" cellpadding="0" border="0" role="presentation" style="background-color: #f7f2f2; font-family: 'Montserrat', sans-serif, 'Open Sans', 'Source Serif Pro'">
- <!-- !header -->
+                <table class=" try" width="600" align="center" cellspacing="0" cellpadding="0" border="0" role="presentation" style="width: 100%;">
+                    <!-- !header -->
                     <tr>
                         <td>
-                            <table cellspacing="0" cellpadding="0" border="0" align="left" width="100">
+                            <table cellspacing="0" cellpadding="0" border="0" align="left" width="100%">
                                 <tr>
                                     <td align="center" valign="top" style="padding: 40px 0 3px 30px">
                                         <img src="https://i.postimg.cc/KvKcysZB/logo-tandem-diabetes-care-horizontal-rgb.png" alt=" tandem company logo" width="143" height="32" />
@@ -135,19 +161,20 @@
                     </tr>
                     <!-- end header -->
                     <!-- main -->
- <!--! h1 row -->
+                    <!--! h 1 row -->
                     <tr>
                         <td>
                             <table cellspacing="0" cellpadding="0" border="0" margin="0" role="presentation" align="center" width="100%">
                                 <tr>
                                     <td align="left" valign="top" style="font-size: 32px; text-align: left; ">
-                                        <p style=" margin:0; padding: 30px 0 36px 30px;">t:slim X2 insulin pump + Dexcom G7 integration</p>
+                                        <p style=" margin:0; padding: 30px 0 36px 30px;">t:slim X2 insulin pump + Dexcom G7 integration
+                                        </p>
                                     </td>
                                 </tr>
                             </table>
                         </td>
                     </tr>
- <!--!paragraph row  -->
+                    <!--!paragraph row  -->
                     <tr>
                         <td>
                             <table cellspacing="0" cellpadding="0" border="0" margin="0" role="presentation" align="center" width="100%">
@@ -166,7 +193,8 @@
                                 <!--  -->
                                 <tr>
                                     <td align="left" valign="top" style="font-size: 14px; text-align: left;line-height:1.5; padding:0px 30px 23px 30px;">
-                                        <p style="margin:0;">We’re working hard to make sure the t:slim X2 insulin pump with Control‑IQ technology integrates with the Dexcom G7. For now, it’s important to know that the Dexcom G7 <span style="text-decoration: underline;">will not work </span>with
+                                        <p style="margin:0;">We’re working hard to make sure the t:slim X2 insulin pump with Control‑IQ technology integrates with the Dexcom G7. For now, it’s important to know that the Dexcom G7 <span
+                                                style="text-decoration: underline; color: #f90404;">will not work </span>with
                                             the t:slim X2 pump (yet).
                                         </p>
                                     </td>
@@ -183,7 +211,7 @@
                             </table>
                         </td>
                     </tr>
- <!-- ! SIGN UP NOW BUTTON-->
+                    <!-- ! SIGN UP NOW BUTTON-->
                     <tr>
                         <td align="center" style=" background-color: #ffffff; padding-bottom: 40px;">
                             <table cellspacing="0" cellpadding="0" border="0" margin="0" role="presentation">
@@ -197,7 +225,7 @@
                             </table>
                         </td>
                     </tr>
-<!-- ! "TANDEM HAS PREVIOUSLY COMMUNICATED ROW"-->
+                    <!-- ! "TANDEM HAS PREVIOUSLY COMMUNICATED ROW"-->
                     <tr>
                         <td align="left" valign="top" style="font-size: 14px; text-align: left;line-height:1.5; padding:0px 30px 30px 30px;">
                             <p style="margin:0; padding-bottom: 20px;">Tandem has previously communicated that our goal is to launch our integrated offerings within one to two quarters (3-6 months) of Dexcom G7 receiving FDA clearance. We will
@@ -205,17 +233,17 @@
                                 please continue to use the Dexcom G6 system.
                             </p>
 
-                            <p style="margin: 0; padding-bottom: 20px;"><span style="font-weight: bold;"> Reminder:</span>Please make it clear during your next CGM supply order that you use a CGM-integrated Tandem pump so you can continue receiving
-                                CGM supplies that work with your pump.</p>
+                            <p style="margin: 0; padding-bottom: 20px;"><span style="font-weight: bold;"> Reminder:&nbsp;</span>Please make it clear during your next CGM supply order that you use a CGM-integrated Tandem pump so you can continue
+                                receiving CGM supplies that work with your pump.</p>
 
                             <p style="margin:0;">Thanks for being part of the Tandem Family.</p>
                         </td>
                     </tr>
                     <!--  -->
                     <tr>
-                        <td style="width: 100%; height: 4px;background-color: green;"></td>
+                        <td style="width: 100%; height: 2px;background-color: #136013;"></td>
                     </tr>
-<!-- !"IMPORTANT SAFETY INFO ROW" -->
+                    <!-- !"IMPORTANT SAFETY INFO ROW" -->
                     <tr>
                         <td>
                             <table cellspacing="0" cellpadding="0" border="0" margin="0" width="100%" role="presentation">
@@ -244,20 +272,21 @@
                             </table>
                         </td>
                     </tr>
- <!-- !WARNING ROW -->
+                    <!-- !WARNING ROW -->
                     <tr>
                         <td>
                             <table cellspacing="0" cellpadding="0" border="0" margin="0" width="100%" role="presentation">
                                 <tr>
                                     <td align="left" valign="top" style="padding:0 30px 20px 30px; font-size: 10px;">
-                                        <p style="border: 2px solid black; padding: 8px; line-height: 1.5;"><span style="font-weight: bold;">WARNING:</span> Control-IQ technology should not be used by anyone under the age of six years old. It should
+                                        <p style="border: 2px solid #136013; padding: 8px; line-height: 1.5;"><span style="font-weight: bold;">WARNING:</span> Control-IQ technology should not be used by anyone under the age of six years old. It
+                                            should
                                             also not be used in patients who require less than 10 units of insulin per day or who weigh less than 55 pounds.</p>
                                     </td>
                                 </tr>
                             </table>
                         </td>
                     </tr>
-<!-- ! "CONTROL IQ TECHNOLOGY ROW"-->
+                    <!-- ! "CONTROL IQ TECHNOLOGY ROW"-->
                     <tr>
                         <td>
                             <table cellspacing="0" cellpadding="0" border="0" align="left" role="presentation" width="100%">
@@ -270,13 +299,13 @@
                                             skills; maintain sufficient diabetes self-care
                                             skills; see healthcare provider(s) regularly; and have adequate vision and/or hearing to recognize all functions of the pump, including alerts, alarms, and reminders. The t:slim X2 pump, and the CGM
                                             transmitter and sensor must be removed before MRI,
-                                            CT, or diathermy treatment. Visit <span style="text-decoration: underline;">
-                                                tandemdiabetes.com/safetyinfo </span>for additional important safety information.
+                                            CT, or diathermy treatment. Visit <span style=""><a href="#" style="color:blue; ">tandemdiabetes.com/safetyinfo</a>
+                                            </span>for additional important safety information.
 
                                         </p>
-                                        <p style="margin: 0;">©2023 Tandem Diabetes Care, Inc. All rights reserved. Tandem Diabetes Care, Control-IQ, and t:slim X2 are either registered trademarks or trademarks of Tandem Diabetes Care, Inc. in the
+                                        <p style="margin: 0;">2023 Tandem Diabetes Care, Inc. All rights reserved. Tandem Diabetes Care, Control-IQ, and t:slim X2 are either registered trademarks or trademarks of Tandem Diabetes Care, Inc. in the
                                             United States and/or other countries. Dexcom, Dexcom G6, and
-                                            Dexcom G7 are either registered trademarks or trademarks of Dexcom, Inc. in the United States and/or other countries. All third-party marks are the property of their respective owners. CM-002680_A
+                                            Dexcom G7 are either registered trademarks or trademarks of Dexcom, Inc. in the United States and/or other countries. All third-party marks are the property of their respective owners.
                                         </p>
                                     </td>
                                 </tr>
@@ -285,35 +314,55 @@
                     </tr>
                     <!-- END MAIN -->
                     <!-- FOOTER -->
-<!-- !SOCIAL MEDIA LINK ROW -->
-<tr>
-    <td>
-        <table cellspacing="0" cellpadding="0" border="0" margin="0" role="presentation" width="100%" align="left">
-          <tr>
-            <td class="td" style="background-color: #009ce8; padding: 40px 0 40px 0px;" width="100%">
-                <img src="https://i.postimg.cc/L6r94BX7/logo-tandem-diabetes-care-horizontal-white.png" alt=" tandem diabetes logo" style="width: 143px; height: 32px;padding-left: 30px; padding-right: 30px;" align="left">
-                <a href="#"> <img src="https://i.postimg.cc/xC0TDfC1/logo-social-facebook20.png" style="width: 20px; padding: 6px;" alt="facebook-link" align="left"></a>
-                <a href="#"> <img src="https://i.postimg.cc/ZnQTd6LW/loghttps://i.postimg.cc/hjp4Kkzb/logo-social-youtube.png-social-instagram.png" style="width: 20px;  padding: 6px;" alt="instagram-link" align="left"></a>
-                <a href="#"> <img src="https://i.postimg.cc/G3g3V11b/logo-social-twitter.png" style="width: 20px;  padding: 6px;" alt="twitter-link" align="left"></a>
-                <a href="#"> <img src="https://i.postimg.cc/hjp4Kkzb/logo-social-youtube.png" style="width: 20px;  padding: 6px;" alt="youtube-link" align="left"></a>
-                <a href="#"> <img src="https://i.postimg.cc/hvvDv2VF/logo-social-linkedin.png" style="width: 20px;  padding: 6px 60px 6px 6px;" alt="linkedin-link" align="left"></a>
-                <a class="sign" href="#" target="_blank" style="display: inline-block;  text-decoration: none;color: white ;background-color:#009ce8;border-radius: 6px;width: auto;border: 2px solid; font-family: 'Montserrat',sans-serif; font-size: 14px;text-align: center;font-weight: bold; padding: 8px 15px 9px 15px;margin: 0;">
-                    Sign up now
-                </a>
-            </td>
-          </tr>
-        </table>
-    </td>
-</tr>
-                  
-<!-- !10 UNSUB ROW -->
+                    <!-- !SOCIAL MEDIA LINK ROW -->
+                    <tr>
+                        <td>
+                            <table cellspacing="0" cellpadding="0" border="0" margin="0" role="presentation" width="100%" align="left">
+                                <tr>
+                                    <td class="social" style="background-color: #009ce8; padding: 42px 20px 40px 0px;" width="100%">
+                                        <img class="tandemlogo" src="https://i.postimg.cc/L6r94BX7/logo-tandem-diabetes-care-horizontal-white.png" alt="tandem-company-logo" style="width: 143px; height: 32px; padding-left:20px;" align="left">
+
+                                        <a href="#" class="gone"> <img src="https://i.postimg.cc/xC0TDfC1/logo-social-facebook20.png" style="width: 20px; padding: 6px;" alt=" facebook-link" align="right"></a>
+
+                                        <a href="#" class="gone"> <img src="https://i.postimg.cc/ZnQTd6LW/logo-social-instagram.png" style="width: 20px;  padding: 6px;" alt="instagram-link" align="right"></a>
+
+
+                                        <a href="#" class="gone"> <img src="https://i.postimg.cc/hjp4Kkzb/logo-social-youtube.png" style="width: 20px;  padding: 6px;" alt="youtube-link" align="right"></a>
+
+                                        <a href="#" class="gone"> <img src="https://i.postimg.cc/hvvDv2VF/logo-social-linkedin.png" style="width: 20px;  padding: 6px 6px 6px 6px;" alt="linkedin-link" align="right"></a>
+                                    </td>
+                                </tr>
+                                <!-- button -->
+
+                                <tr>
+                                    <td align="center" valign="top" s>
+                                        <table class="button" cellspacing="0" cellpadding="0" border="0" margin="0" role="presentation" width="100%">
+                                            <tr>
+                                                <td align="center">
+                                                    <a href="#" target="_blank"
+                                                        style="display: inline-block;  text-decoration: none;color: white ;background-color:#009ce8;border-radius: 6px;width: auto;border: 2px solid; font-family: 'Montserrat',sans-serif; font-size: 14px;text-align: center;font-weight: bold;padding: 9px 20px 9px 20px;margin: 0;">
+                                                        Sign up now
+                                                    </a>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                 
+                    <!-- !10 UNSUB ROW -->
                     <tr>
                         <td align="left" valign="top" style="padding:20px 30px 23px 30px; line-height:1.5; font-size:10px; text-align: center;">
-                             <p style="margin:0;">Tandem Diabetes Care respects your <span style="text-decoration: underline;">
-                                 privacy</span>. This email was sent to costoncharles77@gmail.com. If you no longer wish to receive these emails, you may<span style="text-decoration: underline;"> unsubscribe </span>at any time.
+                            <p style="margin:0;">Tandem Diabetes Care respects your
+                                <a href="#" style=" color: #0000ff;">privacy</a>
+                                . This email was sent to jamesjobseeker@gmail.com. If you no longer wish to receive these emails, you may
+                                <a href="#" style="color: #0000ff;">unsubscribe</a>
+                                at any time.
                             </p>
-                            <p style="margin:0; padding-top:10px;">11075 Roselle Street San Diego, CA 92121  USA
-                            </p>
+                            <span style="margin:0; padding-top:10px;">19090 Poselle Street Los Angeles, CA 00921 USA
+                            </span>
                         </td>
                     </tr>
 
@@ -330,35 +379,6 @@
 
 </html>
 
-<!-- CSS rules to specify families
-font-family: 'Montserrat', sans-serif; 'Open Sans', sans-serif; 'Source Serif Pro', serif;-->
-
-
-
-<!-- 
-      <tr>
-                        <td>
-                            <table cellspacing="0" cellpadding="0" border="0" margin="0" role="presentation" width="100%" align="left">
-                                <tr>
-                                    <td class="td" style="background-color: #009ce8; padding: 42px 0 40px 24px;" width="100%">
-                                        <img src="https://i.postimg.cc/L6r94BX7/logo-tandem-diabetes-care-horizontal-white.png" alt=" tandem diabetes logo" style="width: 143px; height: 32px; padding-right: 50px;" align="left">
-                                        <a href="#"> <img src="https://i.postimg.cc/xC0TDfC1/logo-social-facebook20.png" style="width: 20px; padding: 6px;" alt="facebook-link" align="left"></a>
-                                        <a href="#"> <img src="https://i.postimg.cc/ZnQTd6LW/loghttps://i.postimg.cc/hjp4Kkzb/logo-social-youtube.png-social-instagram.png" style="width: 20px;  padding: 6px;" alt="instagram-link" align="left"></a>
-                                        <a href="#"> <img src="https://i.postimg.cc/G3g3V11b/logo-social-twitter.png" style="width: 20px;  padding: 6px;" alt="twitter-link" align="left"></a>
-                                        <a href="#"> <img src="https://i.postimg.cc/hjp4Kkzb/logo-social-youtube.png" style="width: 20px;  padding: 6px;" alt="youtube-link" align="left"></a>
-                                        <a href="#"> <img src="https://i.postimg.cc/hvvDv2VF/logo-social-linkedin.png" style="width: 20px;  padding: 6px 60px 6px 6px;" alt="linkedin-link" align="left"></a>
-                                        <table cellspacing="0" cellpadding="0" border="0" margin="0" role="presentation">
-                                            <tr>
-                                                <td align="center">
-                                                    <a href="#" target="_blank" style="display: inline-block;  text-decoration: none;color: white ;background-color:#009ce8;border-radius: 6px;width: auto;border: 2px solid; font-family: 'Montserrat',sans-serif; font-size: 14px;text-align: center;font-weight: bold;
-                                                    padding: 8px 15px 9px 15px;margin: 0;">
-                                                        Sign up now
-                                                    </a>
-                                                </td>
-                                            </tr>
-                                        </table>
-                                     </td>
-                                </tr>
-                            </table>
-                        </td>
-                    </tr> -->
+<!-- CSS rules to specify families 
+font-family: 'Montserrat', sans-serif; 'Open Sans', sans-serif; 'Source Serif Pro', serif;" -->
+<!-- !damn near perfect newsletter -->
