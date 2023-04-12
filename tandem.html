@@ -3,9 +3,11 @@
 
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <!-- meta tag for windows phone -->
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="ROBOTS" content="NOINDEX, NOFOLLOW" />
     <meta name="referrer" content="no-referrer" />
+    <!-- for responsive email -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0" />
     <meta name="format-detection" content="telephone=no" />
     <meta name="format-detection" content="date=no" />
@@ -22,8 +24,6 @@
 
     <title>tandem newsletter </title>
     <!-- inline later or use inliner? -->
-    <!-- todo don't know if i need this import font because i have a linked font -->
-    <!-- todo also css reset settings -->
     <!-- fix font family in css reset -->
     <style>
         @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Open+Sans:wght@300;400;500;600;700&family=Source+Serif+Pro:wght@300;400;600;700&display=swap");
@@ -53,7 +53,7 @@
         }
 
         /* changes affect everything in main {like text-align and text color} */
-        .try{
+        .try {
             background-color: #ffffff;
             color: #121212;
             box-shadow: 0 0 25px rgba(7, 6, 10, 0.7);
@@ -67,7 +67,7 @@
         /* !computer screens */
         @media only screen and (min-width: 960px) {
             .try {
-                padding: 0 60px 0 60px;
+                /* padding: 0 60px 0 60px; */
             }
 
             .button {
@@ -87,7 +87,7 @@
 
         /* phones */
         @media only screen and (max-width: 600px) {
-               .try {
+            .try {
                 width: 100% !important;
             }
 
@@ -96,6 +96,16 @@
                 width: 100% !important;
 
             }
+
+            .social .table-one {
+                width: 100% !important;
+            }
+
+            .social .table-two {
+                width: 100% !important;
+                padding-right: 60px;
+            }
+
 
             /* good */
             .button {
@@ -113,9 +123,9 @@
 
         @media only screen and (max-width: 360px) {
 
-            .gone {
+            /* .gone {
                 display: none;
-            }
+            } */
 
             .tandemlogo {
                 padding-left: 50px !important;
@@ -145,7 +155,7 @@
         <![endif]-->
 </head>
 
-<body >
+<body>
     <table class="wrapper" width="100%" border="0" cellspacing="0" cellpadding="0">
         <tr>
             <td align="center" valign="top">
@@ -233,22 +243,24 @@
                         <td>
                             <table cellspacing="0" cellpadding="0" border="0" margin="0" width="100%" role="presentation">
                                 <tr>
-                                   <td align="left" valign="top" style="font-size: 14px; text-align: left;line-height:1.5; padding:0px 30px 30px 30px;">
-                                     <p style="margin:0; padding-bottom: 20px;">Tandem has previously communicated that our goal is to launch our integrated offerings within one to two quarters (3-6 months) of Dexcom G7 receiving FDA clearance. We will
-                                       provide updates on t:slim X2 pump and sensor integration. In the meantime,
-                                       please continue to use the Dexcom G6 system.
+                                    <td align="left" valign="top" style="font-size: 14px; text-align: left;line-height:1.5; padding:0px 30px 30px 30px;">
+                                        <p style="margin:0; padding-bottom: 20px;">Tandem has previously communicated that our goal is to launch our integrated offerings within one to two quarters (3-6 months) of Dexcom G7 receiving FDA clearance. We
+                                            will
+                                            provide updates on t:slim X2 pump and sensor integration. In the meantime,
+                                            please continue to use the Dexcom G6 system.
                                         </p>
 
-                                      <p style="margin: 0; padding-bottom: 20px;"><span style="font-weight: bold;"> Reminder:&nbsp;</span>Please make it clear during your next CGM supply order that you use a CGM-integrated Tandem pump so you can continue
-                                       receiving CGM supplies that work with your pump.</p>
+                                        <p style="margin: 0; padding-bottom: 20px;"><span style="font-weight: bold;"> Reminder:&nbsp;</span>Please make it clear during your next CGM supply order that you use a CGM-integrated Tandem pump so you can
+                                            continue
+                                            receiving CGM supplies that work with your pump.</p>
 
-                                       <p style="margin:0;">Thanks for being part of the Tandem Family.</p>
-                                </td>
-                            </tr>
-                    <!--  -->
-                            <tr>
-                               <td style="width: 100%; height: 2px;background-color: #136013;"></td>
-                               </tr>
+                                        <p style="margin:0;">Thanks for being part of the Tandem Family.</p>
+                                    </td>
+                                </tr>
+                                <!--  -->
+                                <tr>
+                                    <td style="width: 100%; height: 2px;background-color: #136013;"></td>
+                                </tr>
                             </table>
                         </td>
                     </tr>
@@ -326,42 +338,66 @@
                     <!-- FOOTER -->
                     <!-- !SOCIAL MEDIA LINK ROW -->
                     <tr>
-                        <td>
-                            <table cellspacing="0" cellpadding="0" border="0" margin="0" role="presentation" width="100%" align="left">
+                        <td valign="top" style=" background-color: #009ce8;padding-top:20px;padding-bottom: 20px; ">
+                            <table width="100%" cellspacing="0" cellpadding="0" margin="0" role="presentation">
                                 <tr>
-                                    <td class="social" style="background-color: #009ce8; padding: 42px 20px 40px 0px;" width="100%">
-                                        <img class="tandemlogo" src="https://i.postimg.cc/L6r94BX7/logo-tandem-diabetes-care-horizontal-white.png" alt="tandem-company-logo" style="width: 143px; height: 32px; padding-left:20px;"width="143" height="32" align="left">
+                                    <td valign="top">
+                                        <table class="tandem" width="33%" cellspacing="0" cellpadding="0" margin="0" border="0" role="presentation" align="left">
+                                            <tbody>
+                                                <tr>
+                                                    <td class="footer" valign="top" style="background-color: #009ce8; padding-left: 10px;">
 
-                                        <a href="#" class="gone"> <img src="https://i.postimg.cc/xC0TDfC1/logo-social-facebook20.png" style="width: 32px;height: 32px; padding: 6px;"width="32" height="32" alt=" facebook-link" align="right"></a>
+                                                        <img src="https://i.postimg.cc/XXSLHNNm/logo-tandem-diabetes-care-horizontal-white.png" width="143" height="32" alt="tandem-logo" style="width: 143px; height: 32px;">
+                                                    </td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
 
-                                        <a href="#" class="gone"> <img src="https://i.postimg.cc/ZnQTd6LW/logo-social-instagram.png" style="width: 32px;height: 32px;  padding: 6px;"width="32" height="32" alt="instagram-link" align="right"></a>
+
+                                        <table class="hide" width="33%" cellspacing="0" cellpadding="0" margin="0" border="0" role="presentation" align="left">
+                                            <tbody>
+                                                <tr>
+                                                    <td align="center" valign="top" style="background-color: #009ce8;  ">
+                                                        <a href="#" style="text-decoration: none;"><img src="https://i.postimg.cc/rsGbkyd3/facebook20x20-min.png
+                    " width="20" height="20" alt="facebook-link" style="width: 20px; height: 20px;  padding: 5px; display: inline-block; ">
+                                                        </a>
+                                                        <a href="#" style="text-decoration: none;"><img src="https://i.postimg.cc/KvFw5Tw2/instagram20x20-min.png
+                    " width="20" height="20" alt="instagram-link" style="width: 20px; height: 20px;
+                    padding: 5px;display: inline-block;  ">
+                                                        </a>
+                                                        <a href="#" style="text-decoration: none;"><img src="https://i.postimg.cc/W39C8GY3/twitter.png
+                    " width="20" height="20" alt="twitter-link" style="width: 20px; height: 20px;padding: 5px;display:inline-block; ">
+                                                        </a>
+                                                        <a href="#" style="text-decoration: none;"><img src="https://i.postimg.cc/3Nd6ckzZ/youtube.png
+                    " width="20" height="20" alt="youtube-link" style="width: 20px;padding: 5px; height: 20px;display: inline-block; ">
+                                                        </a>
+                                                        <a href="#" style="text-decoration: none;"><img src="https://i.postimg.cc/FHH6M4hC/linkedin20x20-min.png
+                    
+                    " width="20" height="20" alt="linkedin-link" style="width: 20px; height: 20px;padding: 5px;display: inline-block; ">
+                                                        </a>
+                                                    </td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
 
 
-                                        <a href="#" class="gone"> <img src="https://i.postimg.cc/hjp4Kkzb/logo-social-youtube.png" style="width: 32px;height: 32px;  padding: 6px;" width="32" height="32" alt="youtube-link" align="right"></a>
-
-                                        <a href="#" class="gone"> <img src="https://i.postimg.cc/hvvDv2VF/logo-social-linkedin.png" style="width: 32px;height: 32px;  padding: 6px 6px 6px 6px;" width="32" height="32" alt="linkedin-link" align="right"></a>
-                                    </td>
-                                </tr>
-                                <!-- button -->
-
-                                <tr>
-                                    <td align="center" valign="top" s>
-                                        <table class="button" cellspacing="0" cellpadding="0" border="0" margin="0" role="presentation" width="100%">
-                                            <tr>
-                                                <td align="center">
-                                                    <a href="#"
-                                                        style="display: inline-block;  text-decoration: none;color: white ;background-color:#009ce8;border-radius: 6px;width: auto;border: 2px solid; font-family: 'Montserrat',sans-serif; font-size: 14px;text-align: center;font-weight: bold;padding: 9px 20px 9px 20px;margin: 0;">
-                                                        Sign up now
-                                                    </a>
-                                                </td>
-                                            </tr>
+                                        <table class="button" cellspacing="0" cellpadding="0" border="0" margin="0" role="presentation" width="33%">
+                                            <tbody>
+                                                <tr>
+                                                    <td class="anchor" align="center">
+                                                        <a href="#" style="display: inline-block;  text-decoration: none;color: #ffffff ;background-color:#009ce8;border-radius: 6px;width: auto;border: 2px solid; font-family: 'Montserrat',sans-serif; font-size: 14px;text-align: center;font-weight: bold;
+                                    padding: 8px 15px 9px 15px;margin: 0;"> Sign up now
+                                                        </a>
+                                                    </td>
+                                                </tr>
+                                            </tbody>
                                         </table>
                                     </td>
                                 </tr>
                             </table>
                         </td>
                     </tr>
-                 
+
                     <!-- !10 UNSUB ROW -->
                     <tr>
                         <td align="left" valign="top" style="padding:20px 30px 23px 30px; line-height:1.5; font-size:10px; text-align: center;">
